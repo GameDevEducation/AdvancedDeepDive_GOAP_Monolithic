@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686d7057de32c4730a454f0043ae4b62, type: 3}
+  m_Name: Default Config
+  m_EditorClassIdentifier: 
+  CharacterHeight: 1.8
+  CharacterRadius: 0.4
+  WalkSpeed: 10
+  GroundedThreshold: 0.1
+  CollisionBuffer: 0.1
+  MovementBlendRate: 0.25
+  DefaultMaterial: {fileID: 13400000, guid: 61032d66ebde9498289bb810b4033de4, type: 2}
+  MaterialWhenJumping: {fileID: 13400000, guid: e26873654fd1340d6bd67ff4995370a0,
+    type: 2}
+  StepCheckLookAhead: 0.45
+  MaxStepUpDistance: 0.3
+  MinStepDownDistance: 0.3
+  MaxSlope: 45
+  WalkableMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  CanRun: 1
+  RunMode: 1
+  RunSpeed: 15
+  CanJump: 1
+  CanDoubleJump: 0
+  JumpHeight: 1.25
+  JumpVelocity: 4
+  JumpVelocityBlend: 0.75
+  JumpCeilingCheck: 0.1
+  CeilingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  FallForce: 1
+  AirControl: 1
+  InAirSpeed: 10
+  RestrictVerticalRotation: 1
+  VerticalRotation_Min: -90
+  VerticalRotation_Max: 90
+  FootstepInterval: 0.5
+  FootstepFrequencyWithSpeed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
